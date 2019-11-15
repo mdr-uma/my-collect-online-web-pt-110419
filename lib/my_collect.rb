@@ -1,9 +1,9 @@
 def my_collect(collection)
    i = 0
-  array = []
-   while i < array.length
-     yield (languages[i])
+  result = []
+   while i < collection.length
+     result << (yield array[i])
          i += 1
      end
-     array
+     result
 end
